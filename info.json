@@ -1,0 +1,7 @@
+{
+  "version": "1.2.3",
+  "type": "LuaModule",
+  "author": "john.dunn@qsc.com",
+  "description": "Simple Module Example",
+  "requiredVersion" : "9.5"
+}
