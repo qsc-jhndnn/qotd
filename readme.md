@@ -1,4 +1,4 @@
-# Simple module example
+# Quote of the day module 
 
 ### `GetRandomMessage()`
 Returns a random message
