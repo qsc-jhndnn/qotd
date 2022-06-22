@@ -1,4 +1,4 @@
-# Simple module example
+# Quote of the day module 
 
 ### `GetRandomMessage()`
 Returns a random message
@@ -8,14 +8,14 @@ List of all messages
 Example
 
 ```
-sm = require("simple_module")
+qotd = require("qotd")
 
 print("random message...")
-msg = sm.GetRandomMessage()
+msg = qotd.GetRandomMessage()
 print(string.format("%s said '%s'", msg.Author, msg.Quote))
 
 print("first message...")
-msg = sm.Messages[1]
+msg = qotd.Messages[1]
 print(string.format("%s said '%s'", msg.Author, msg.Quote))
 
 ```
